@@ -45,7 +45,7 @@ const Home = () => {
           </a>
         </div>
         <div className="item">
-          <a className="itemLink" href="http://zaloapp.com/qr/p/1ish5otifvgtc" target="_blank">
+          <a className="itemLink" href="https://zaloapp.com/qr/p/1ish5otifvgtc" target="_blank">
             <img className="icon" src={Zalo} alt="" />
             <div className="text"> ZALO</div>
           </a>
