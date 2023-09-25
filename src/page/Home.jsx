@@ -55,7 +55,7 @@ const Home = () => {
           </a>
         </div>
         <div className="item">
-            <a className="itemLink" href="zalo://chat?id=/1ish5otifvgtc"  rel="noopener noreferrer">
+            <a className="itemLink" href="https://zaloapp.com/qr/p/1ish5otifvgtc"  rel="noopener noreferrer">
             <img className="icon" src={Zalo} alt="" />
             <div className="text"> ZALO</div>
           </a>
