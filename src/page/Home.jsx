@@ -7,6 +7,9 @@ import Yt from "../img/youtube.png";
 import Web from "../img/web.webp";
 import GGmap from "../img/ggmap.png";
 const Home = () => {
+  document.getElementById('zaloapp').addEventListener('click', function(event) {
+    event.preventDefault()
+  })
   return (
     <div className="home">
       <div className="container">
@@ -55,7 +58,7 @@ const Home = () => {
           </a>
         </div>
         <div className="item">
-            <a className="itemLink" href="https://zaloapp.com/qr/p/1ish5otifvgtc"  rel="noopener noreferrer">
+          <a id="zaloapp" className="itemLink" href="https://zaloapp.com/qr/p/1ish5otifvgtc"  rel="noopener noreferrer">
             <img className="icon" src={Zalo} alt="" />
             <div className="text"> ZALO</div>
           </a>
@@ -76,7 +79,6 @@ const Home = () => {
           </a>
         </div>
         <div className="item">
-        
           <a className="itemLink" href="tel:+84839306969">
             <img className="icon" src={Phone} alt="" />
             <div className="text">GỌI ĐIỆN TRỰC TIẾP</div>
