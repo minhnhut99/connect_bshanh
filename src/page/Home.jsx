@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.scss";
 import Fb from "../img/facebook.png";
 import Phone from "../img/phone.png";
@@ -7,9 +7,13 @@ import Yt from "../img/youtube.png";
 import Web from "../img/web.webp";
 import GGmap from "../img/ggmap.png";
 const Home = () => {
-  document.getElementById('zaloapp').addEventListener('click', function(event) {
-    event.preventDefault()
-  })
+  const [preventDefaultZalo, setPreventDefaultZalo] = useState(false);
+
+  const handleZaloClick = (event) => {
+    if (preventDefaultZalo) {
+      event.preventDefault();
+    }
+  };
   return (
     <div className="home">
       <div className="container">
@@ -58,7 +62,12 @@ const Home = () => {
           </a>
         </div>
         <div className="item">
-          <a id="zaloapp" className="itemLink" href="https://zaloapp.com/qr/p/1ish5otifvgtc"  rel="noopener noreferrer">
+        <a
+          className="itemLink"
+          href="https://zaloapp.com/qr/p/1ish5otifvgtc"
+          rel="noopener noreferrer"
+          onClick={handleZaloClick}
+        >
             <img className="icon" src={Zalo} alt="" />
             <div className="text"> ZALO</div>
           </a>
