@@ -2,15 +2,17 @@ import React from "react";
 import "./Home.scss";
 import Fb from "../img/facebook.png";
 import Phone from "../img/phone.png";
-import Tiktok from "../img/tiktok.png";
 import Zalo from "../img/zalo.png";
 import Yt from "../img/youtube.png";
 import Web from "../img/web.webp";
+import GGmap from "../img/ggmap.png";
 const Home = () => {
   return (
     <div className="home">
       <div className="container">
-        <h1>KẾT NỐI VỚI <h2>BS HẠNH</h2></h1>
+        <h1>
+          KẾT NỐI VỚI <h2>BS HẠNH</h2>
+        </h1>
         <div className="heading-title">
           <p className="note-heading">Bấm vào các ô bên dưới nhé!</p>
           <svg
@@ -33,13 +35,21 @@ const Home = () => {
           </svg>
         </div>
         <div className="item">
-          <a className="itemLink" href="https://www.facebook.com/profile.php?id=100094284863683" target="_blank" rel='noopener noreferrer'>
+          <a
+            className="itemLink"
+            href="https://www.facebook.com/profile.php?id=100094284863683"
+            rel="noopener noreferrer"
+          >
             <img className="icon" src={Fb} alt="facebook" />
             <div className="text"> FACEBOOK</div>
           </a>
         </div>
         <div className="item">
-          <a className="itemLink" href="https://www.youtube.com/@bshanhxuongkhop2054" target="_blank" rel='noopener noreferrer'>
+          <a
+            className="itemLink"
+            href="https://www.youtube.com/@bshanhxuongkhop2054"
+            rel="noopener noreferrer"
+          >
             <img className="icon" src={Yt} alt="" />
             <div className="text"> YOUTUBE</div>
           </a>
@@ -51,13 +61,22 @@ const Home = () => {
           </a>
         </div>
         <div className="item">
-          <a className="itemLink" href="https://bshanh.vn" target="_blank">
+          <a
+            className="itemLink"
+            href="https://www.google.com/maps/dir//129+Phan+%C4%90%C3%ACnh+Ph%C3%B9ng,+Ch%C3%A2u+Ph%C3%BA+B,+Ch%C3%A2u+%C4%90%E1%BB%91c,+An+Giang,+Vi%E1%BB%87t+Nam/@10.7068433,105.1204859,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x310a26a889e15793:0x5da1468ab508cf6d!2m2!1d105.1230608!2d10.706838!3e0?hl=vi-VN&entry=ttu"
+          >
+            <img className="icon" src={GGmap} alt="" />
+            <div className="text">ĐỊA CHỈ GOOGLE MAPS</div>
+          </a>
+        </div>
+        <div className="item">
+          <a className="itemLink" href="https://bshanh.vn">
             <img className="icon" src={Web} alt="" />
             <div className="text"> TRANG WEB</div>
           </a>
         </div>
         <div className="item">
-          <a className="itemLink" href="tel:+84839306969" target="_blank">
+          <a className="itemLink" href="tel:+84839306969">
             <img className="icon" src={Phone} alt="" />
             <div className="text">GỌI ĐIỆN TRỰC TIẾP</div>
           </a>
