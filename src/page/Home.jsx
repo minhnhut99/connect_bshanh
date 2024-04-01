@@ -64,7 +64,7 @@ const Home = () => {
         <div className="item">
         <a
           className="itemLink"
-          href="https://zaloapp.com/qr/p/1ish5otifvgtc"
+          href="https://zalo.me/644304092688832402?fbclid=IwAR0tlj_2PDLC58oQzaZRiCPMnDdumASJU69OQWOYbtXNcqSCpjSdlKcEE5A_aem_AXSj7Lpbudgb3LJjz8s51NrBAFoPlV4kQZ0V_cJdougtUUl5YGROqPih2QN6WtosyJ3b5YmcAlzMlIzovy7nbomj"
           rel="noopener noreferrer"
           onClick={handleZaloClick}
         >
