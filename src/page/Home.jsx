@@ -77,6 +77,7 @@ const Home = () => {
           <a
             className="itemLink"
             href="https://www.tiktok.com/@bshanh.vn?_r=1&_d=secCgYIASAHKAESPgo83LToNv8tSXpjsMQp6URT%2B2FK4RuNsoKgLOTtAL16Dr2BIt5bIR8bgb3oEZs%2F8CbpC2PKTqJyUbUUIfNJGgA%3D&checksum=674daf9bdee43837b7a59969be0a432307f58a67eb5d80dff74f7ccb440699b7&sec_uid=MS4wLjABAAAAw7xyAYLGA7wSRplCupQmNB6tgZspI_OfUIYHlcjuddxkVZyBEWPph2D8yzajONpJ&sec_user_id=MS4wLjABAAAADic9cttkxiwVeQ-XWLyLQiFqe8mnuCMoJM3n8k9E9oCUrOZHWM0USXnUxfWVAfXB&share_app_id=1180&share_author_id=7254599050832643090&share_link_id=081f278d-f21f-43df-bedd-badca94417aa&sharer_language=vi&social_share_type=5&source=h5_t&timestamp=1738985834&u_code=dc6g5ah3d1f0im&ugbiz_name=ACCOUNT&user_id=6821837728368657409&utm_campaign=client_share&utm_medium=android&utm_source=copy"
+            rel="noopener noreferrer"
           >
             <img className="icon" src={Tiktok} alt="" />
             <div className="text"> TIKTOK</div>
